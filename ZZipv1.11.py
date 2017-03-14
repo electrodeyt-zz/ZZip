@@ -1,8 +1,8 @@
 import lzma
 import sys
-version = 1.1
+version = 1.11
 string_identifier = "ZZIP1.0   "
-print("ZZip Version", version)
+print("ZZip Extracter Version", version)
 filterstouse = [
     {"id": lzma.FILTER_DELTA},
     {"id": lzma.FILTER_LZMA2, "preset": 9 | lzma.PRESET_EXTREME},
@@ -33,9 +33,13 @@ else:
         initread = f.read()
         newfile = initread.split(bytes("   ", "utf-8"))
         if not newfile[0] == bytes("ZZIP1.0", "ASCII"):
-            print("File is not a ZZip file!")
+            if newfile[0] == bytes("ZZIP2.0", "ASCII"):
+                print("You are using a future version of the ZZip File Format. Please download the newest Version of ZZip Extracter.")
+                raise SystemExit
+            print("File is not a supported ZZip file!")
             print(newfile)
             raise SystemExit
+            
         f2 = open(sys.argv[3], "ab")
         print("Now Decompressing. Please wait")
         decompress = dlzma.decompress(newfile[1])
