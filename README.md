@@ -6,7 +6,9 @@ ZZip uses LZMA2 Compression. The magic Bytes are 5A 5A 49 50 31 2E 30, also "ZZI
 # Tests
 The tests were performed on a Computer (duh) with these Specs:
   i5 4440
+  
   16GB of Ram
+  
   GTX960 (This does not effect results)
   
 The Blender Test file (Found under the Test Files folder) is 453.452 bytes large. The compressed file (also present in the Test Folder) is 83.516 bytes large.
