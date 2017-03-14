@@ -1,10 +1,10 @@
 # ZZip
 ZZip is a File compression format with up to 80% File Compression (See Tests) and a extracter for its format.
 
-#How it works
+# How it works
 ZZip use the LZMA2 Compression. 7zip also uses this Compression type.
 
-#Tests
+# Tests
 The tests were performed on a Computer (duh) with these Specs:
   i5 4440
   16GB of Ram
@@ -15,7 +15,7 @@ This makes the Compressed file 81% Smaller. Keep in mind that the size differanc
 
 Using complety Random files genrated with dd from /dev/urandom yieled a far worse Percantage, with only a drop of about 30 Mb of a 131 Mb test file.
 
-#What is possible and what isn't
+# What is possible and what isn't
 At the moment ZZip can only compress 1 File at a time and it Compressed/Decompresses in ram before writing it to the disk, making it slower than other compression softwares.
 I would *NOT* recommend using this, as it does not work properly on windows with a fresh install of Python **3**.
 
