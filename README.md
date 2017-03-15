@@ -23,3 +23,6 @@ I would **NOT** recommend using this, as it does not work properly on windows wi
 
 
 The MIT License applies to both the Extracting Software and the File format.
+
+# Downloads
+You can download the Extractor/Compressor from github.com/ZZip/releases.
