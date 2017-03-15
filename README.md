@@ -2,7 +2,7 @@
 ZZip is a File compression format with up to 80% File Compression (See Tests) and a extracter for its format.
 
 # How it works
-ZZip uses LZMA2 Compression. The magic Bytes are 5A 5A 49 50 31 2E 30, also "ZZIP1.0" in ASCII. After these bytes, there are three 20's, " " in ASCII.
+ZZip uses LZMA2 Compression. The magic Bytes are 5A 5A 49 50 31 2E 30, also "ZZIP1.0" in UTF-8. After these bytes, there are three 20's, " " in UTF-8.
 # Tests
 The tests were performed on a Computer (duh) with these Specs:
   i5 4440
