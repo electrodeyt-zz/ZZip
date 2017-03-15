@@ -17,8 +17,8 @@ This makes the Compressed file 81% Smaller. Keep in mind that the size differanc
 Using complety Random files genrated with dd from /dev/urandom yieled a far worse Percantage, with only a drop of about 30 Mb of a 131 Mb test file.
 
 # What is possible and what isn't
-At the moment ZZip can only compress 1 File at a time and it Compresses/Decompresses in ram before writing it to the disk, making it slower than other compression software.
-I would **NOT** recommend using this, as it does not work properly on windows with a fresh install of Python **3**.
+</s>At the moment ZZip can only compress 1 File at a time</s> *It is now possible to compress a Folder.* and it Compresses/Decompresses in ram before writing it to the disk, making it slower than other compression software.
+</s>I would **NOT** recommend using this, as</s> It does not work properly on windows with a fresh install of Python **3**.
 
 
 
