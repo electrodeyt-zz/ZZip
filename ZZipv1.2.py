@@ -109,6 +109,6 @@ else:
     elif sys.argv[1] == "-c":
         compressfile(sys.argv[3], sys.argv[2])
     elif sys.argv[1] == "-d":
-        finddecompress(sys.argv[2], sys.argv[3])
+        finddecompress()
     else:
         print("Function is not an implemented function")
