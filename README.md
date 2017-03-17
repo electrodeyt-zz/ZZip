@@ -1,3 +1,4 @@
+### This program requires Python 3.
 # ZZip
 ZZip is a File compression format with up to 80% File Compression (See Tests) and a extracter for its format.
 
@@ -18,7 +19,7 @@ Using complety Random files genrated with dd from /dev/urandom yieled a far wors
 
 # What is possible and what isn't
 ~~At the moment ZZip can only compress 1 File at a time~~ *It is now possible to compress a Folder.* and it Compresses/Decompresses in ram before writing it to the disk, making it slower than other compression software.
-~~I would **NOT** recommend using this, as~~ It does not work properly on windows with a fresh install of Python **3**.
+~~I would **NOT** recommend using this, as~~
 
 
 
