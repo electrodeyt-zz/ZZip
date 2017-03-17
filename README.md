@@ -19,11 +19,10 @@ Using complety Random files genrated with dd from /dev/urandom yieled a far wors
 
 # What is possible and what isn't
 ~~At the moment ZZip can only compress 1 File at a time~~ *It is now possible to compress a Folder.* and it Compresses/Decompresses in ram before writing it to the disk, making it slower than other compression software.
-~~I would **NOT** recommend using this, as~~
+~~I would **NOT** recommend using this.~~
 
 
-
-The MIT License applies to both the Extracting Software and the File format.
 
 # Downloads
 You can download the Extractor/Compressor from http://github.com/electrodeyt/ZZip/releases .
+The MIT License applies to both the Extracting Software and the File format.
